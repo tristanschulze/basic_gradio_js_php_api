@@ -1,7 +1,7 @@
 <?php
 header('Content-Type: application/json');
 
-$gradio_url = "https://6c53a600e9de935837.gradio.live";
+$gradio_url = "https://YOUR_GRADIO_ADRESS.gradio.live";
 $width = isset($_GET['width']) ? intval($_GET['width']) : 256;
 $height = isset($_GET['height']) ? intval($_GET['height']) : 256;
 
